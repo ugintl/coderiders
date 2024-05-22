@@ -106,7 +106,7 @@ Currently, when we are writing this profile Drupal's latest version is 10.1.2
   Press  the "Clear all caches" button after the page reloads and all Caches are cleared navigate to the front page  
   You are ready to go online   
 
-**Step 5.**  (optional)
+**Step 5.(Issues)**  (optional)
   As of today, two contributed modules have issues that need to be fixed  
   1. [January Bootstrap 5 theme](https://www.drupal.org/project/january_theme)  
     issue: [User page like user/1 get error](https://www.drupal.org/project/january_theme/issues/3389460)  
@@ -114,7 +114,13 @@ Currently, when we are writing this profile Drupal's latest version is 10.1.2
     issue: [PHP 8.2 compatibility](https://www.drupal.org/project/pathauto/issues/3328670)  
   
   Maybe when you download this repository, both issues will be solved or fixed in the new version  
-  But if issues are not fixed, these issues have a patch, and you may apply these simple patches  
+  But if issues are not fixed, these issues have a patch, and you may apply these simple patches
+
+3. If you see an error TypeError: array_merge(): Argument #2 must be of type array, null given in array_merge() (line 907 of core\includes\install.inc). this problem is related to https://www.drupal.org/project/fences module
+issue is already created and merged in dev branch
+https://www.drupal.org/project/fences/issues/3446610
+now you have both options use dev branch of this module or user older branch
+I have just tested with 3.0.0. 
 
 # Customization  
 Personalize your site by updating the content, theme settings, and configuration to align with your brand and objectives.  
